@@ -9,7 +9,7 @@ use Pod::Simple::XHTML::BlendedCode::Blender 1.000 qw();
 use IO::String 1.08 qw();
 use Carp qw(croak);
 
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 $VERSION =~ s/_//ms;
 
 sub new {
@@ -66,7 +66,7 @@ q{The parser's internal_modules_hash method is not returning a hashref}
 	my $key;
 	if ( defined $to ) {
 		$key = first { $to =~ m{\A$_\z}ms }
-		sort { $a <=> $b } keys %{ $self->internal_modules_hash() };
+		sort { $a cmp $b } keys %{ $self->internal_modules_hash() };
 		return $self->SUPER::resolve_pod_page_link( $to, $section )
 		  if not defined $key;
 	} else {
@@ -257,10 +257,10 @@ No bugs have been reported.
 
 Bugs should be reported via: 
 
-1) The CPAN bug tracker at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Pod-Simple-XHTML-Blended>
+1) The CPAN bug tracker at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Pod-Simple-XHTML-BlendedCode>
 if you have an account there.
 
-2) Email to E<lt>bug-Pod-Simple-XHTML-Blended@rt.cpan.orgE<gt> if you do not.
+2) Email to E<lt>bug-Pod-Simple-XHTML-BlendedCode@rt.cpan.orgE<gt> if you do not.
 
 =head1 AUTHOR
 

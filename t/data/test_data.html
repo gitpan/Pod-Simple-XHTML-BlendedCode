@@ -29,7 +29,7 @@
 
 
 <pre>
-<span class="keyword">our</span> <span class="symbol">$VERSION</span> <span class="operator">=</span> <span class="single">'1.000'</span><span class="structure">;</span>
+<span class="keyword">our</span> <span class="symbol">$VERSION</span> <span class="operator">=</span> <span class="single">'1.001'</span><span class="structure">;</span>
 <span class="symbol">$VERSION</span> <span class="operator">=~</span> <span class="substitute">s/_//ms</span><span class="structure">;</span>
 </pre>
 
@@ -143,7 +143,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">my</span> <span class="symbol">$key</span><span class="structure">;</span>
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span> <span class="structure">(</span> <span class="core">defined</span> <span class="symbol">$to</span> <span class="structure">)</span> <span class="structure">{</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="symbol">$key</span> <span class="operator">=</span> <span class="word">first</span> <span class="structure">{</span> <span class="symbol">$to</span> <span class="operator">=~</span> <span class="match">m{\A$_\z}ms</span> <span class="structure">}</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="word">sort</span> <span class="structure">{</span> <span class="symbol">$a</span> <span class="operator">&lt;=&gt;</span> <span class="symbol">$b</span> <span class="structure">}</span> <span class="word">keys</span> <span class="cast">%</span><span class="structure">{</span> <span class="symbol">$self</span><span class="operator">-&gt;</span><span class="word">internal_modules_hash</span><span class="structure">()</span> <span class="structure">};</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="word">sort</span> <span class="structure">{</span> <span class="symbol">$a</span> <span class="operator">cmp</span> <span class="symbol">$b</span> <span class="structure">}</span> <span class="word">keys</span> <span class="cast">%</span><span class="structure">{</span> <span class="symbol">$self</span><span class="operator">-&gt;</span><span class="word">internal_modules_hash</span><span class="structure">()</span> <span class="structure">};</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="symbol">$self</span><span class="operator">-&gt;</span><span class="word">SUPER::resolve_pod_page_link</span><span class="structure">(</span> <span class="symbol">$to</span><span class="operator">,</span> <span class="symbol">$section</span> <span class="structure">)</span>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span class="word">if</span> <span class="operator">not</span> <span class="core">defined</span> <span class="symbol">$key</span><span class="structure">;</span>
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="structure">}</span> <span class="keyword">else</span> <span class="structure">{</span>
@@ -299,9 +299,9 @@
 
 <p>Bugs should be reported via:</p>
 
-<p>1) The CPAN bug tracker at <a href="http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Pod-Simple-XHTML-Blended">http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Pod-Simple-XHTML-Blended</a> if you have an account there.</p>
+<p>1) The CPAN bug tracker at <a href="http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Pod-Simple-XHTML-BlendedCode">http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Pod-Simple-XHTML-BlendedCode</a> if you have an account there.</p>
 
-<p>2) Email to &lt;bug-Pod-Simple-XHTML-Blended@rt.cpan.org&gt; if you do not.</p>
+<p>2) Email to &lt;bug-Pod-Simple-XHTML-BlendedCode@rt.cpan.org&gt; if you do not.</p>
 
 <h1 id="AUTHOR">AUTHOR</h1>
 
