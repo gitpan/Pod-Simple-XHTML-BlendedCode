@@ -28,4 +28,5 @@ capture { $parser->parse_file(catfile(qw(lib Pod Simple XHTML BlendedCode.pm))) 
 # write_file(catfile(qw(t data test_data.html)), $output_test);
 
 my $expected_output = read_file(catfile(qw(t data test_data.html)));
+$expected_output =~ s(\x{0d}\x{0a})(\x{0a}); # Deal with Windows line endings on my machine.
 is_string($output_test, $expected_output, 'parse_file works');

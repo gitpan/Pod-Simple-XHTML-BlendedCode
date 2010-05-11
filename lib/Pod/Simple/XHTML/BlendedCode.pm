@@ -9,7 +9,7 @@ use Pod::Simple::XHTML::BlendedCode::Blender 1.000 qw();
 use IO::String 1.08 qw();
 use Carp qw(croak);
 
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 $VERSION =~ s/_//ms;
 
 sub new {
@@ -104,7 +104,7 @@ __END__
 
 =begin readme text
 
-Pod::Simple::XHTML::BlendedCode version 1.000
+Pod::Simple::XHTML::BlendedCode version 1.002
 
 =end readme
 
@@ -116,7 +116,7 @@ Pod::Simple::XHTML::BlendedCode - Blends syntax-highlighted code and pod in one 
 
 =head1 VERSION
 
-This document describes Pod::Simple::XHTML::BlendedCode version 1.000
+This document describes Pod::Simple::XHTML::BlendedCode version 1.002
 
 =begin readme
 
@@ -145,7 +145,7 @@ Alternatively, to install with Module::Build, you can use the following commands
 
 =head1 SYNOPSIS
 
-    use Pod::Simple::XHTML::BlendedCode 1.000 qw();
+    use Pod::Simple::XHTML::BlendedCode 1.002 qw();
 	
 	my $parser = Pod::Simple::XHTML::BlendedCode->new();
 
