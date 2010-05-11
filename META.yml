@@ -18,7 +18,7 @@ name: Pod-Simple-XHTML-BlendedCode
 provides:
   Pod::Simple::XHTML::BlendedCode:
     file: lib/Pod/Simple/XHTML/BlendedCode.pm
-    version: 1.002
+    version: 1.003
   Pod::Simple::XHTML::BlendedCode::Blender:
     file: lib/Pod/Simple/XHTML/BlendedCode/Blender.pm
     version: 1.000
@@ -34,4 +34,4 @@ resources:
   homepage: http://csjewell.comyr.com/
   license: http://dev.perl.org/licenses/
   repository: http://bitbucket.org/csjewell/pod-simple-xhtml-blendedcode
-version: 1.002
+version: 1.003
