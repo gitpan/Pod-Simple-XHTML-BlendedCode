@@ -1,0 +1,145 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'verbose' => undef,
+         'dist_suffix' => undef,
+         'PL_files' => undef,
+         'pollute' => undef,
+         'metafile2' => 'META.json',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'conflicts' => {},
+         'scripts' => undef,
+         'recommends' => {},
+         'pod_files' => undef,
+         'dist_version' => '2.001',
+         'config_dir' => '_build',
+         'sign' => undef,
+         'recurse_into' => [],
+         'build_bat' => 0,
+         'extra_linker_flags' => [],
+         'build_class' => 'My::Builder',
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'base_dir' => '/home/csjewell/Desktop/Pod-Simple-XHTML-BlendedCode',
+         'allow_mb_mismatch' => 0,
+         'xs_files' => undef,
+         'destdir' => undef,
+         'metafile' => 'META.yml',
+         'mb_version' => '0.4205',
+         'use_tap_harness' => 0,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'dist_name' => 'Pod-Simple-XHTML-BlendedCode',
+         'has_config_data' => undef,
+         'install_base' => '/home/csjewell/perl5',
+         'module_name' => 'Pod::Simple::XHTML::BlendedCode',
+         'recursive_test_files' => undef,
+         'perl' => '/usr/bin/perl',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'dist_author' => [
+                            'Curtis Jewell <csjewell@cpan.org>'
+                          ],
+         'bundle_inc' => [
+                           'Module::Build'
+                         ],
+         'use_rcfile' => 1,
+         'pureperl_only' => 0,
+         'configure_requires' => {
+                                   'Module::Build' => '0.3614'
+                                 },
+         'extra_manify_args' => undef,
+         'test_files' => undef,
+         'dist_abstract' => undef,
+         'create_readme' => 1,
+         'prefix_relpaths' => {},
+         'share_dir' => undef,
+         'meta_merge' => {
+                           'resources' => {
+                                            'repository' => 'http://hg.curtisjewell.name/Pod-Simple-XHTML-BlendedCode',
+                                            'homepage' => 'http://www.curtisjewell.name/',
+                                            'bugtracker' => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Pod-Simple-XHTML-BlendedCode'
+                                          }
+                         },
+         'debug' => undef,
+         'get_options' => {},
+         'dist_version_from' => 'lib/Pod/Simple/XHTML/BlendedCode.pm',
+         '_added_to_INC' => [
+                              '/home/csjewell/Desktop/Pod-Simple-XHTML-BlendedCode/_build/lib',
+                              '/home/csjewell/perl5/lib/perl5/x86_64-linux-gnu-thread-multi',
+                              '/home/csjewell/perl5/lib/perl5'
+                            ],
+         'create_license' => 1,
+         'auto_configure_requires' => 1,
+         'debugger' => undef,
+         'html_css' => '',
+         'cpan_client' => 'cpan',
+         'mymetafile2' => 'MYMETA.json',
+         'bundle_inc_preload' => [],
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'release_status' => 'unstable',
+         'needs_compiler' => '',
+         'include_dirs' => [],
+         'orig_dir' => '/home/csjewell/Desktop/Pod-Simple-XHTML-BlendedCode',
+         'installdirs' => 'site',
+         'test_requires' => {},
+         'mymetafile' => 'MYMETA.yml',
+         'create_makefile_pl' => 'small',
+         'magic_number' => undef,
+         'dynamic_config' => 1,
+         'tap_harness_args' => {},
+         'install_sets' => {},
+         'install_base_relpaths' => {},
+         'create_packlist' => 1,
+         'meta_add' => {},
+         'requires' => {
+                         'Pod::Simple::XHTML' => '3.14',
+                         'perl' => '5.008001',
+                         'parent' => '0.223',
+                         'PPI::HTML' => '1.08'
+                       },
+         'install_path' => {},
+         'pm_files' => undef,
+         'quiet' => undef,
+         'script_files' => undef,
+         'extra_compiler_flags' => [],
+         'build_script' => 'Build',
+         'original_prefix' => {},
+         'c_source' => undef,
+         'program_name' => undef,
+         'autosplit' => undef,
+         'license' => 'perl',
+         'build_requires' => {
+                               'Test::LongString' => '0.13',
+                               'Test::More' => '0.88',
+                               'IO::CaptureOutput' => '0.1102',
+                               'File::Slurp' => '9999.13'
+                             },
+         'allow_pureperl' => 0,
+         'config' => undef,
+         'blib' => 'blib',
+         'prefix' => undef
+       }
+     ];
+$x; }

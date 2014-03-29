@@ -1,0 +1,4 @@
+do{ my $x = {
+       'Pod-Simple-XHTML-BlendedCode-*' => 1
+     };
+$x; }

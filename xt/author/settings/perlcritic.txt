@@ -1,5 +1,5 @@
 verbose = %f:%l:%c:\n %p: %m\n
-theme = (core || more)
+theme = (core || more) && !deprecated
 
 [ControlStructures::ProhibitPostfixControls]
 allow = if unless
@@ -15,22 +15,25 @@ exclude_functions = print
 version = 5.008001
 
 [ValuesAndExpressions::ProhibitMagicNumbers]
-allowed_values = -1 0 1 2
+allowed_values = -1 0 1 2 4 9
+
+[CodeLayout::RequireTidyCode]
+perltidyrc = xt/author/settings/perltidy.txt
 
 # Exclusions
-# I use svn - don't need the keywords.
-[-Miscellanea::RequireRcsKeywords]
-
 # I like to set up my own pod.
 [-Documentation::RequirePodSections]
 
 # No Emacs!
 [-Editor::RequireEmacsFileVariables]
 
-# The versioning I use does not allow this.
-[-ValuesAndExpressions::RequireConstantVersion]
-
 # Don't want exceptions for this small a module.
 # croak is fine.
 [-ErrorHandling::RequireUseOfExceptions]
+
+# We are constrained by our superclass in this regard.
+[-NamingConventions::Capitalization]
+
+# perltidy is not working for me.
+[-CodeLayout::RequireTidyCode]
 

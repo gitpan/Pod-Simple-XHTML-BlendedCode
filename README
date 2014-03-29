@@ -1,12 +1,12 @@
-Pod::Simple::XHTML::BlendedCode version 1.003
+Pod::Simple::XHTML::BlendedCode version 2.000
 
 INSTALLATION
     To install this module, run the following commands:
 
-            perl Makefile.PL
-            make
-            make test
-            make install
+        perl Makefile.PL
+        make
+        make test
+        make install
 
     This method of installation will install a current version of
     Module::Build if it is not already installed.
@@ -14,19 +14,19 @@ INSTALLATION
     Alternatively, to install with Module::Build, you can use the following
     commands:
 
-            perl Build.PL
-            ./Build
-            ./Build test
-            ./Build install
+        perl Build.PL
+        ./Build
+        ./Build test
+        ./Build install
 
 DEPENDENCIES
     Perl 5.8.1 is the mimimum version of perl that this module will run on.
 
     Other modules that this module depends on are Pod::Simple::XHTML,
-    Pod::Parser, PPI::HTML 1.08, and parent 0.223.
+    PPI::HTML 1.08, and parent 0.223.
 
 LICENSE AND COPYRIGHT
-    Copyright (c) 2010, Curtis Jewell `<csjewell@cpan.org>'. All rights
+    Copyright (c) 2010, 2014 Curtis Jewell `<csjewell@cpan.org>'. All rights
     reserved.
 
     This module is free software; you can redistribute it and/or modify it

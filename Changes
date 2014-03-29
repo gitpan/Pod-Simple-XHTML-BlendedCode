@@ -1,5 +1,11 @@
 Revision history for Pod-Simple-XHTML-BlendedCode
 
+2.001  Sat Mar 29 2014 (TRIAL)
+    - REALLY releasing to CPAN.
+
+2.000  Fri Mar 28 2014 (TRIAL)
+    - Changing to ONLY use Pod::Simple (no Pod::Parser blender required)
+
 1.003  Mon May 10 2010
 1.002  Mon May 10 2010
     - Fixing a test bug.

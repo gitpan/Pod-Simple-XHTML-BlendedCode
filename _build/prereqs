@@ -1,0 +1,18 @@
+do{ my $x = {
+       'build_requires' => {
+                             'Test::LongString' => '0.13',
+                             'Test::More' => '0.88',
+                             'IO::CaptureOutput' => '0.1102',
+                             'File::Slurp' => '9999.13'
+                           },
+       'test_requires' => {},
+       'conflicts' => {},
+       'requires' => {
+                       'Pod::Simple::XHTML' => '3.14',
+                       'perl' => '5.008001',
+                       'parent' => '0.223',
+                       'PPI::HTML' => '1.08'
+                     },
+       'recommends' => {}
+     };
+$x; }

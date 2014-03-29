@@ -1,0 +1,59 @@
+{
+   "abstract" : "Blends syntax-highlighted code and pod in one XHTML document.",
+   "author" : [
+      "Curtis Jewell <csjewell@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Pod-Simple-XHTML-BlendedCode",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "File::Slurp" : "9999.13",
+            "IO::CaptureOutput" : "0.1102",
+            "Test::LongString" : "0.13",
+            "Test::More" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3614"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "PPI::HTML" : "1.08",
+            "Pod::Simple::XHTML" : "3.14",
+            "parent" : "0.223",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "Pod::Simple::XHTML::BlendedCode" : {
+         "file" : "lib/Pod/Simple/XHTML/BlendedCode.pm",
+         "version" : "2.001"
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Pod-Simple-XHTML-BlendedCode"
+      },
+      "homepage" : "http://www.curtisjewell.name/",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://hg.curtisjewell.name/Pod-Simple-XHTML-BlendedCode"
+      }
+   },
+   "version" : "2.001"
+}
