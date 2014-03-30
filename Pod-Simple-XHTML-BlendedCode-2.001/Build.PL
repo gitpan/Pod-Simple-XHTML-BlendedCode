@@ -60,7 +60,7 @@ my $builder = $class->new(
         'perl'               => '5.008001',
         'parent'             => '0.223',
         'PPI::HTML'          => '1.08',
-        'Pod::Simple::XHTML' => '3.21',
+        'Pod::Simple::XHTML' => '3.14',
     },
     build_requires => {
         'Test::More'        => '0.88',

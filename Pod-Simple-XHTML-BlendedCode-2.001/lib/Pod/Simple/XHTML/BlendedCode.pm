@@ -8,7 +8,7 @@ use Carp qw(croak);
 use List::Util qw(first);
 use PPI::HTML 1.08 qw();
 
-our $VERSION = '2.002';
+our $VERSION = '2.001';
 
 sub new {
     my $self = shift;

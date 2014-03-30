@@ -1,8 +1,5 @@
 Revision history for Pod-Simple-XHTML-BlendedCode
 
-2.002  Sun Mar 30 2014 (TRIAL)
-    - Requires Pod::Simple::XHTML 3.21 in order to pass tests.
-
 2.001  Sat Mar 29 2014 (TRIAL)
     - REALLY releasing to CPAN.
 

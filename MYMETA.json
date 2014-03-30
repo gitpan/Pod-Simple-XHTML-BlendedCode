@@ -30,7 +30,7 @@
       "runtime" : {
          "requires" : {
             "PPI::HTML" : "1.08",
-            "Pod::Simple::XHTML" : "3.14",
+            "Pod::Simple::XHTML" : "3.21",
             "parent" : "0.223",
             "perl" : "5.008001"
          }

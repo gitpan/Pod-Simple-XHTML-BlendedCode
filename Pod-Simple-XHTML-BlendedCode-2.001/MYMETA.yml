@@ -9,7 +9,7 @@ build_requires:
   Test::More: 0.88
 configure_requires:
   Module::Build: 0.3614
-dynamic_config: 1
+dynamic_config: 0
 generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
@@ -19,10 +19,10 @@ name: Pod-Simple-XHTML-BlendedCode
 provides:
   Pod::Simple::XHTML::BlendedCode:
     file: lib/Pod/Simple/XHTML/BlendedCode.pm
-    version: 2.002
+    version: 2.001
 requires:
   PPI::HTML: 1.08
-  Pod::Simple::XHTML: 3.21
+  Pod::Simple::XHTML: 3.14
   parent: 0.223
   perl: 5.008001
 resources:
@@ -30,4 +30,4 @@ resources:
   homepage: http://www.curtisjewell.name/
   license: http://dev.perl.org/licenses/
   repository: http://hg.curtisjewell.name/Pod-Simple-XHTML-BlendedCode
-version: 2.002
+version: 2.001
